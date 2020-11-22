@@ -1,0 +1,18 @@
+==World==
+gravity : 300
+start : level1.txt
+
+==Player==
+character : mario
+x : 16
+y : 16
+mass : 100
+health : 5
+max_velocity : 100
+
+==level1.txt==
+tunnel : level2.txt
+goal : level2.txt
+
+==bonus.txt==
+goal : level1.txt
